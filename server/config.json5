@@ -1,0 +1,12 @@
+{
+  // The port on which to run the server
+  port: 2003,
+
+  minTeamNameLength: 2,
+  maxTeamNameLength: 20,
+  maxPersonCountPerTeam: 4,
+  // The length of the randomly generated team codes
+  randomTeamCodeLength: 4,
+
+  adminPassword: "bob",
+}

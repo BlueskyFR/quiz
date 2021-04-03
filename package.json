@@ -1,17 +1,30 @@
 {
   "name": "quiz",
-  "version": "0.0.0",
+  "version": "0.1",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "start-server": "ts-node server/app.ts"
   },
   "dependencies": {
-    "vue": "^3.0.5"
+    "@types/socket.io-client": "^1.4.36",
+    "@vuedx/typescript-plugin-vue": "^0.6.3",
+    "socket.io-client": "^4.0.1",
+    "ts-node": "^9.1.1",
+    "vue": "^3.0.5",
+    "vue-router": "4",
+    "vue-socket.io-extended": "^5.0.0-alpha.4",
+    "vuex": "^4.0.0"
   },
   "devDependencies": {
+    "@types/he": "^1.1.1",
     "@vitejs/plugin-vue": "^1.1.5",
     "@vue/compiler-sfc": "^3.0.5",
+    "crypto-random-string": "^3.3.1",
+    "he": "^1.2.0",
+    "json5": "^2.2.0",
+    "socket.io": "^4.0.1",
     "typescript": "^4.1.3",
     "vite": "^2.1.0",
     "vue-tsc": "^0.0.8"
